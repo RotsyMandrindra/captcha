@@ -12,7 +12,7 @@
         const form = document.getElementById('form-container');
         const number = document.getElementById('number');
         const result = document.getElementById('result');
-        const captcha = document.getElementById('my-captcha-container');
+        const captcha = document.getElementById('captcha');
 
         let sequence = true;
 
@@ -104,8 +104,10 @@
             </form>
         </div>
 
-        <div id="my-captcha-container">
-          <!-- The contents of this container will be replaced by the captcha widget -->
+        <div id="captcha" style="display: none;">
+            <div id="my-captcha-container">
+                <!-- The contents of this container will be replaced by the captcha widget -->
+              </div>
         </div>
 
         <div id="result"></div>
